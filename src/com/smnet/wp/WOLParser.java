@@ -2,7 +2,7 @@ package com.smnet.wp;
 
 public class WOLParser {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         System.out.println("Test");
 
@@ -17,5 +17,7 @@ public class WOLParser {
         System.out.println(wolurlIT.meeting(2019,11,3));
         System.out.println(wolurlDE.meeting(2019,11,3));
         System.out.println(wolurlEN.meeting(2019,11,3));
+
+        System.out.println(wolurlIT.meeting(2019,11,10));
     }
 }
